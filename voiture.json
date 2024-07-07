@@ -1,0 +1,13 @@
+{
+    "voiture": [{
+            "modèle": "Peugeot",
+            "couleur": "bleu",
+            "immatriculation": 2008
+        },
+        {
+            "modèle": "Citroën",
+            "couleur": "blanc",
+            "immatriculation": 1999
+        }
+    ]
+}

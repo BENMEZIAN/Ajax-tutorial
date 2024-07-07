@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>AJAX tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .button-container {
+            display: flex;
+            justify-content: center;
+            /* Align items horizontally */
+            gap: 10px;
+            /* Adjust the gap between buttons */
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>GET data from Text file with AJAX</h2>
+    <div id="demo">
+        <button type="button" onclick="loadTextFile()">Load text content</button>
+    </div>
+
+    <h2>GET data from Json file with AJAX</h2>
+    <div class="button-container">
+        <div id="demo1">
+            <button type="button" onclick="loadJsonFileFilm()">Load json films</button>
+        </div><br>
+
+        <div id="demo2">
+            <button type="button" onclick="loadJsonFileVoiture()">Load json voitures</button>
+        </div>
+    </div>
+
+    <h2>GET data from Xml file with AJAX</h2>
+    <div id="demo3">
+        <button type="button" onclick="loadXmlFile()">Load xml content</button>
+    </div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
